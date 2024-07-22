@@ -20,7 +20,7 @@ export function Profile() {
               <div className="relative flex gap-6 items-start">
                 <div className="-mt-20 w-40">
                   <Avatar
-                    src="/img/team-5.png"
+                    src="/img/team-5.jpg"
                     alt="Profile picture"
                     variant="circular"
                     className="h-full w-full"
@@ -28,9 +28,9 @@ export function Profile() {
                 </div>
                 <div className="flex flex-col mt-2">
                   <Typography variant="h4" color="blue-gray">
-                    Jenna Stones
+                    Ozza Dinata
                   </Typography>
-                  <Typography variant="paragraph" color="gray" className="!mt-0 font-normal">jena@mail.com</Typography>
+                  <Typography variant="paragraph" color="gray" className="!mt-0 font-normal">mail@ozzadinata.biz.id</Typography>
                 </div>
               </div>
 
@@ -90,30 +90,32 @@ export function Profile() {
               <div className="flex items-center gap-2">
                 <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  Los Angeles, California
+                  Jakarta, Indonesia
                 </Typography>
               </div>
               <div className="flex items-center gap-2">
                 <BriefcaseIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  Solution Manager - Creative Tim Officer
+                  Data Specialist
                 </Typography>
               </div>
               <div className="flex items-center gap-2">
                 <BuildingLibraryIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  University of Computer Science
+                  Indonesia 
                 </Typography>
               </div>
             </div>
             <div className="mb-10 py-6">
               <div className="flex w-full flex-col items-start lg:w-1/2">
                 <Typography className="mb-6 font-normal text-blue-gray-500">
-                  An artist of considerable range, Jenna the name taken by
-                  Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                  performs and records all of his own music, giving it a
-                  warm, intimate feel with a solid groove structure. An
-                  artist of considerable range.
+                  Geophysicist with over 4 years of experience in processing and analyzing Geographic Information System (GIS) data, 
+                  coupled with strong programming skills and expertise in Artificial Intelligence (AI) application development.
+                  I have a proven track record in developing innovative GEO-AI solutions.
+
+                  In addition to my geophysical and GIS expertise, I have solid skills and knowledge in Big Data, 
+                  data analysis, data engineering, and data science. I also have experience as a data science mentor,
+                  I am a fast learner who adapt quickly to technological advances and continuously seek opportunities to enhance my skills independently.
                 </Typography>
                 <Button variant="text">Show more</Button>
               </div>
