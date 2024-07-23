@@ -71,7 +71,7 @@ export function Navbar({ brandName, routes, action }) {
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
           <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
+            href="/"
             target="_blank"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
@@ -121,7 +121,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Profile Website",
+  brandName: "Personal Website",
   action: (
     <a
       href="#"
